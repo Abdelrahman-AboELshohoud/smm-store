@@ -16,10 +16,10 @@ const Contact = () => {
 
   return (
     <section
-      id="contact"
-      className="py-20 bg-gray-50 relative overflow-hidden px-4 sm:px-6 lg:px-8 xl:px-12"
+      className="pb-16 pt-12 bg-gray-50 relative overflow-hidden px-4 sm:px-6 lg:px-8 xl:px-12"
       dir={language === "ar" ? "rtl" : "ltr"}
     >
+      <div id="contact" className="relative z-10 h-4"></div>
       <div className="absolute top-0 left-0 w-full h-full">
         <svg
           viewBox="0 0 200 200"

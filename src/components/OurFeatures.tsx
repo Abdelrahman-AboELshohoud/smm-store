@@ -5,6 +5,7 @@ export default function OurFeatures() {
 
   return (
     <section
+      id="features"
       className="relative py-12 px-6 sm:px-6 lg:px-12 xl:px-16"
       dir={language === "ar" ? "rtl" : "ltr"}
     >

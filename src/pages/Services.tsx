@@ -13,7 +13,7 @@ const Services = () => {
   const servicesArray = services(language);
   return (
     <section
-      id="services"
+
       className="my-6 py-10 bg-gray-50 relative overflow-hidden px-6 sm:px-6 lg:px-8 xl:px-12"
     >
       <div className="absolute top-0 left-0 w-full h-full">

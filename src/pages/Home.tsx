@@ -2,8 +2,7 @@ import Hero from "../components/Hero";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import OurFeatures from "../components/OurFeatures";
-import { FaHome, FaTools, FaComments, FaEnvelope } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaHome, FaComments, FaEnvelope, FaRocketchat } from "react-icons/fa";
 import { useTranslateContext } from "../context/TranslateContext";
 
 const Home: React.FC = () => {
@@ -22,34 +21,34 @@ const Home: React.FC = () => {
         }`}
       >
         <nav className="flex flex-col space-y-4">
-          <Link
-            to="#hero"
+          <a
+            href="#hero"
             className="bg-primary text-white p-2 rounded-full hover:bg-opacity-90 transition duration-300"
             title="Home"
           >
             <FaHome />
-          </Link>
-          <Link
-            to="#services"
+          </a>
+          <a
+            href="#features"
             className="bg-primary text-white p-2 rounded-full hover:bg-opacity-90 transition duration-300"
-            title="Services"
+            title="Features"
           >
-            <FaTools />
-          </Link>
-          <Link
-            to="#testimonials"
+            <FaRocketchat />
+          </a>
+          <a
+            href="#testimonials"
             className="bg-primary text-white p-2 rounded-full hover:bg-opacity-90 transition duration-300"
             title="Testimonials"
           >
             <FaComments />
-          </Link>
-          <Link
-            to="#contact"
+          </a>
+          <a
+            href="#contact"
             className="bg-primary text-white p-2 rounded-full hover:bg-opacity-90 transition duration-300"
             title="Contact"
           >
             <FaEnvelope />
-          </Link>
+          </a>
         </nav>
       </div>
     </div>
